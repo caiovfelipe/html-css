@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+h1 {
+font: normal 30pt arial;
+    color: white;
+}
+
+
+div {
+    text-align: center;
+}
+
+a {
+    font: normal 13pt arial;
+    color: white;
+}

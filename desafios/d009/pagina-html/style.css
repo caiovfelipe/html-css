@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    font: normal 30pt arial;
+    
+}
+
+div {
+    text-align: center;
+}
+
+a{
+    color: white;
+    font: normal 13pt arial;
+}
