@@ -14,20 +14,23 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            height: 400px;
             
         }
 
-        tr.linha{
-            background-color: gray;
-        }
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*alinhamento horizontal*/
+            vertical-align: middle;
         }
 
-        td.dado{
-            background-color: yellow;
+        .numero {
+            text-align: right;
+
         }
+
+      
     </style>
 </head>
 <body>
@@ -45,19 +48,19 @@
             <td>b1</td>
             <td>c1</td>
         </tr>
-        <tr class="linha"> <!--Segunda linha-->
+        <tr> <!--Segunda linha-->
             <td>a2</td>
             <td>b2</td>
-            <td>c2</td>
+            <td class="numero">c2</td>
         </tr>
         <tr> <!--Terceira linha-->
             <td>A3</td>
             <td>b3</td>
-            <td>c3</td>
+            <td class="numero">c3</td>
         </tr>
         <tr> <!--Quarta linha-->
             <td>a4</td>
-            <td  class="dado">b4</td>
+            <td>b4</td>
             <td>c4</td>
         </tr>
     </table>
